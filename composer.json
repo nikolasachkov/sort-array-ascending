@@ -1,0 +1,30 @@
+{
+    "name": "sach2/sort-array-ascending",
+    "description": "A PHP function that sorts an array ascendingly with all 9s at the front.",
+    "authors": [
+        {
+            "name": "nikolasachkov",
+            "email": "nikola.sachkov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8",
+        "laravel/pint": "^1.21",
+        "rector/rector": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
